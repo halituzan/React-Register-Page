@@ -2,6 +2,13 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
 .app {
   display: flex;
   align-items: center;
@@ -58,6 +65,15 @@ button{
     cursor: pointer;
 }
 .otherReg p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.otherReg:hover{
+    color: white;
+}
+.otherReg p {
     flex: 10.5;
 }
 .googleReg{
@@ -80,6 +96,7 @@ button{
     flex: 1.5;
 
 }
+
 .iconFb{
     color: #4267B2;
 }

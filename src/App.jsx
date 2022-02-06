@@ -91,13 +91,13 @@ const App = () => {
         <p className="isMember">Already a member? <span>Sign In</span></p>
         <div className="otherRegs">
           <a className="otherReg googleReg">
-            <div className="regIcon iconGit">
+            <div href="/" className="regIcon iconGit">
               <GitHub />
             </div>
             <p>Continue with Github</p>
           </a>
           <p>or</p>
-          <a className="otherReg facebookReg">
+          <a href="/" className="otherReg facebookReg">
             <div className="regIcon iconFb">
               <Facebook />
             </div>
